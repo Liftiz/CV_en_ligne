@@ -1,0 +1,519 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blanc Marie</title>
+    <meta name="description" content="Web designer and front-end developer">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css ">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.9.0/validator.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+    <script defer src="index.js"></script>
+
+
+</head>
+
+<body class="text-center" data-spy="scroll" data-target=".navbar" data-offset="180">
+  <div id="#wrapper" class="">
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="toggled" data-target="#wrapper">
+            <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="" target="_blank" title="Check out my site">Blanc Marie</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <div class="container">
+            <ul class="nav navbar-nav navbar-right">
+              
+              <li><a href="#home">
+                <h1 class="neon" data-text="Home">Home</h1>
+              </a></li>
+              <li><a href="#about"><h1 class="neon" data-text="Home">About</h1></a></li>
+              <li><a href="#container"><h1 class="neon" data-text="Home">Portfolio</h1></a></li>
+              <li><a href="#experience" ><h1 class="neon" data-text="Home">Expérience</h1></a></li>
+              <li><a href="#contact"><h1 class="neon" data-text="Home">Contact</h1></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="nav-side-wrapper">
+      <div class="container">
+        <ul class="nav-side">
+
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="content-wrapper">
+      <!-- front page -->
+      <section id="home" class="jumbotron vertical-centre bgd shadow" data-speed="5" data-type="background">
+        <div id="cont">
+          <h1>Blanc Marie</h1>
+          <h3>Développeuse Full Stack</h3>
+          <p>
+
+            <a href="https://www.linkedin.com/in/blanc-marie/" target="_blank" title="LinkedIn profile" class="btn btn-default btn-lg">
+              <i class="fa fa-linkedin-square"></i>LinkedIn
+            </a>
+            <a href="https://github.com/Liftiz " target="_blank" title="GitHub profile" class="btn btn-default btn-lg">
+              <i class="fa fa-github"></i>GitHub
+            </a>
+            <a href="CVMarieBLANC.pdf" download title="GitHub profile" class="btn btn-default btn-lg">
+              <i class="fa fa-file"></i>CV
+            </a>
+          </p>
+        </div>
+      </section>
+
+      <!-- about -->
+      <section id="about">
+        <div class="container">
+
+          <div class="col-sm-12">
+            <p  class="hover-switch">
+              <img src="avatar2.jpg" />
+              <img src="avatar1.jpg" />
+            </p></div>
+            <div id="profil">
+            <h1 id="titreQ">Qui suis-je ? </h1>
+            <p id="description">Bonjour ! Si vous me lisez, c'est que mon profil est susceptible de vous intéresser ! Je me présente ! je m'appelle marie Blanc et j’ai 24 ans !
+              J'ai débuté ma reconversion professionnelle après une bonne expérience acquise dans le domaine du management. J'ai commencé par passé une formation développeur web & mobile (bac+2) en 
+               7 mois à l'ICS Nice.
+               Et actuellement, je suis une formation <strong>Concepteur developpeur d'application (bac+4) </strong> à l'AFPA Nice. Et pour valider mon  diplôme,
+               il faut que j’effectue un stage du <strong> 10 mai au 18 août 2021</strong> dont je suis activement à la recherche. Donc n’hésitez pas à regarder mes compétences en détail un peu plus bas ! A bientôt !</p>
+          </div>
+          
+        </div>
+        <div class="cont">
+          <div class="col">
+            <h2 class="titre">Langages</h2>
+            <ul class="skill">
+              <li class="skil" ><span class="blueline html"></span><em>HTML</em></li>
+              <li class="skil"><span class="blueline css"></span><em>CSS</em></li>
+              <li class="skil"><span class="blueline javascript"></span><em>Javascript</em></li> 
+              <li class="skil"><span class="blueline jquery"></span><em>jQuery</em></li>
+            </ul>
+          </div>
+            <div class="col">
+            <h2 class="commerce titre">E-commerce</h2>
+            <ul class="skill">
+              <li class="skil"><span class="greenline wordpress"></span><em>Wordpress</em></li>
+              <li class="skil"><span class="greenline shopify"></span><em>Shopify</em></li>
+            </ul>
+          </div>
+            <div class="col">
+            <h2 class="logiciel titre">Logiciel</h2>
+            <ul class="skill">
+              <li class="skil"><span class="redline poweramc"></span><em>PowerAMC</em></li>
+              <li class="skil"><span class="redline illustrator"></span><em>Illustrator</em></li>
+              <li class="skil"><span class="redline photoshop"></span><em>Photoshop</em></li>
+
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- portfolio -->
+
+  <!-- portfolio projects page -->
+  <div id='container'>
+    <header id="portfolio">
+      <h1 class="center">Portfolio</h1>
+    </header>
+    <main>
+      <div class='items'>
+        <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 400 200'>
+            <defs>
+              <clipPath id='clip-0'>
+                <circle cx='0' cy='0' fill='#000' r='250px'></circle>
+              </clipPath> 
+            </defs>
+            <a href="https://codepen.io/Lifties/pen/GRjejZm" target="_blank" rel="noopener noreferrer">
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Algorithme
+            </text>
+            <g clip-path='url(#clip-0)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='projetAlgo.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Algorithme
+              </text>
+            </g>
+          </a>
+          </svg>
+        </div>
+        <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 400 200'>
+            <defs>
+              <clipPath id='clip-1'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <a href="https://codepen.io/Lifties/pen/JjRzREd" target="_blank" rel="noopener noreferrer">
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Login
+            </text>
+            <g clip-path='url(#clip-1)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='projetLogin.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Login
+              </text>
+            </g>
+            </a>
+          </svg>
+        </div>
+        <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 400 200'>
+            <defs>
+              <clipPath id='clip-2'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <a href="https://codepen.io/Lifties/pen/RwGdGjg" target="_blank" rel="noopener noreferrer">
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Oeuvres
+            </text>
+            <g clip-path='url(#clip-2)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='projetOeuvre.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Oeuvres
+              </text>
+            </g>
+          </a>
+          </svg>
+        </div>
+        <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 400 200'>
+            <defs>
+              <clipPath id='clip-3'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <a href="https://codepen.io/Lifties/pen/zYKbBbe" target="_blank" rel="noopener noreferrer">
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              PokeCoffee
+            </text>
+            <g clip-path='url(#clip-3)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='projetPoke.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                PokeCoffee
+              </text>
+            </g>
+          </a>
+          </svg>
+        </div>
+        <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 400 200'>
+            <defs>
+              <clipPath id='clip-4'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <a href="https://codepen.io/Lifties/pen/bGwZwvj?editors=1010" target="_blank" rel="noopener noreferrer"> 
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Restropective
+            </text>
+            <g clip-path='url(#clip-4)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='projetRestropective.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Restropective
+              </text>
+            </g>
+            </a>
+          </svg>
+        </div>
+        <div class='item'>
+          <svg preserveAspectRatio='xMidYMid slice' viewBox='0 0 400 200'>
+            <defs>
+              <clipPath id='clip-5'>
+                <circle cx='0' cy='0' fill='#000' r='150px'></circle>
+              </clipPath>
+            </defs>
+            <a href="https://codepen.io/Lifties/pen/jOMJMEx" target="_blank" rel="noopener noreferrer">
+            <text class='svg-text' dy='.3em' x='50%' y='50%'>
+              Three
+            </text>
+            <g clip-path='url(#clip-5)'>
+              <image height='100%' preserveAspectRatio='xMinYMin slice' width='100%' xlink:href='projetThree.png'></image>
+              <text class='svg-masked-text' dy='.3em' x='50%' y='50%'>
+                Three
+              </text>
+            </g>
+            </a>
+          </svg>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  
+
+
+
+<!-- RESUME SECTION START -->
+
+<section id="resume" class="section">
+  <div class="container sec-wrapper">
+      <div class="sec-content">
+          <div class="row"> 
+  
+    <div class="row">
+                  <div class="col-md-12">
+                    <span class="separator center"></span>
+        <h4 class="sec-subtitle center ">J'aime repousser mes limites et ne jamais manquer une occasion.</h4>
+        <span class="separator center"></span>
+      </div><!-- //.col-md-12 -->
+    </div><!-- //.row -->
+    
+    <!-- EXPERIENCE -->	
+    <div class="row experience  " style="padding-bottom:20px;"  id="experience" >
+              <div class="col-md-10 col-md-offset-1">
+                  <h3 class="center"> EXPERIENCE</h3>
+
+                  <div class="panel-group resume" id="accordion" role="tablist" aria-multiselectable="true">
+        <!-- resume-item1 -->
+                      <div class="resume-item">
+                          <div class="resume-year">
+                              <span class="resume-year">Mai/Juin 2020</span>
+                          </div>
+                          <!-- //.resume-year -->
+
+                          <div class="panel">
+                              <div class="panel-heading" role="tab" id="heading1">
+                                  <div class="panel-title">
+              <div class="resume-btn">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#work1"  aria-expanded="true" aria-controls="work1"></a>
+              </div><!-- //.resume-btn -->
+                                      <h4 class="resume-title">Développeur web- CréapiConcept</h4>
+                                  </div>
+                                  <!-- //.panel-title -->
+                              </div>
+                              <!-- //.panel-heading -->
+
+                              <div id="work1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+                                  <div class="panel-body text-dark">
+                                       <div class="subheading1">Responsabilités:</div>
+                                       <p><ul style="list-style-type:disc">
+                                       <li>Création d'une maquette.
+                 <li>Création d'un service QRCode sous Wordpress.
+                 <li>Gestion de modules de réseaux sociaux.
+                </ul>
+                                      </p>
+                                  </div><!-- //.panel-body -->
+                              </div><!-- //.panel-collapse -->
+                          </div><!-- //.panel -->
+                      </div><!-- //.resume-item1 -->
+
+                      <!-- resume-item2 -->
+                      <div class="resume-item">
+                          <div class="resume-year">
+                              <span class="resume-year">2018 - 2019</span>
+                          </div>
+                          <!-- //.resume-year -->
+
+                          <div class="panel">
+                              <div class="panel-heading" role="tab" id="heading2">
+                                  <div class="panel-title">
+              <div class="resume-btn">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#work2" aria-expanded="false" aria-controls="work2"></a>
+              </div><!-- //.resume-btn -->
+                                      <h4 class="resume-title">Responsable Magasin – BOON </h4>
+                                  </div>
+                                  <!-- //.panel-title -->
+                              </div>
+                              <!-- //.panel-heading -->
+
+                              <div id="work2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                                   <div class="panel-body text-dark">
+                                       <div class="subheading1">Responsabilités:</div>
+                                       <p><ul>
+                                       <li>Organiser les plannings et adapter le temps de travail en fonction des fluctuations journalières et saisonnières de l'activité.</li>
+                <li>Recruter et intégrer les collaborateurs, en les formant aux bases du métier.
+<li>S'assurer de la bonne tenue du magasin (rangement, présentation, propreté).</li>
+<li>S'assurer de la qualité de la communication interne.</li>
+<li>Organiser l'accueil de la clientèle et participer à la vente.</li>
+<li>Effectuer une veille concurrentielle régulière.</li>
+<li>Animer des réunions d’équipe, impliquer et motiver le personnel pour améliorer les résultats commerciaux.</li>
+<li>Relayer les plans d'action définis par le management supérieur (direction régionale) au niveau des équipes de vente.</li>
+                                      </ul></p>
+                                  </div><!-- //.panel-body -->
+                              </div><!-- //.panel-collapse -->
+                          </div><!-- //.panel -->
+                      </div><!-- //.resume-item2 -->
+        
+        <!-- resume-item3 -->
+                      <div class="resume-item">
+                          <div class="resume-year">
+                              <span class="resume-year">2017 - 2018</span>
+                          </div>
+                          <!-- //.resume-year -->
+
+                          <div class="panel">
+                              <div class="panel-heading" role="tab" id="heading3">
+                                  <div class="panel-title">
+              <div class="resume-btn">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#work3" aria-expanded="false" aria-controls="work3"></a>
+              </div><!-- //.resume-btn -->
+                                      <h4 class="resume-title">Manager – McDonald's</h4>
+                                  </div>
+                                  <!-- //.panel-title -->
+                              </div>
+                              <!-- //.panel-heading -->
+
+                              <div id="work3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                   <div class="panel-body text-dark">
+                                       <div class="subheading1">Responsabilités:</div>
+                                       <p><ul>
+                 <li>Animer et structurer l’organisation de son équipe, fixer des objectifs individuels et collectifs, évaluer les performances de son équipe.</li>
+<li>Planifier et organiser le processus de production.</li>
+<li>Effectuer le suivi commercial et financier de la structure selon les objectifs définis par la direction.</li>
+<li>Réaliser l'inventaire du restaurant, analyser et expliquer les résultats à la direction et participer à la mise en place de plans d'actions afin de les améliorer.</li>
+                                      </ul></p>
+                                  </div><!-- //.panel-body -->
+                              </div><!-- //.panel-collapse -->
+                          </div><!-- //.panel -->
+                      </div><!-- //.resume-item3 -->
+        
+                  </div><!-- //.panel-group -->
+              </div><!-- //.col-md-10 -->
+    </div>					
+    <!-- //.EXPERIENCE -->
+    
+    <!-- EDUCATION -->
+    <div class="row">
+                  <div class="col-md-12">
+                      <h3 class="text-center" style="padding:20px 0 50px;">FORMATION</h3>
+      </div><!-- //.col-md-12 -->
+    </div><!-- //.row1 -->
+    
+    <div class="row">
+    <div class="col-lg-12">
+    <!-- timeline -->
+    <ul class="timeline">
+    <li>
+      <div class="timeline-image">
+        <div class="timeline-content">2020 - 2021</div>
+      </div> <!-- //.timeline-image -->
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <div class="timeline-title1">AFPA Nice</div>
+          <div class="title2">Concepteur développeur d'application</div>
+        </div> <!-- //.timeline-heading -->
+        <HR/>
+        <div class="timeline-body">
+          <p>En cours</p>
+        </div> <!-- //.timeline-body -->
+      </div> <!-- //.timeline-panel -->
+    </li> <!-- //.item1 -->
+
+    
+
+
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <div class="timeline-content">2019 - 2020</div>
+      </div> <!-- //.timeline-image -->
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <div class="timeline-title1">ICS Nice & Simplon.co</div>
+          <div class="title2">Développeur Web & Mobile</div>
+        </div> <!-- //.timeline-heading -->
+        <HR/>
+        <div class="timeline-body">
+          <p> FullStack</p>
+        </div> <!-- //.timeline-body -->
+      </div> <!-- //.timeline-panel -->
+    </li> <!-- //.item2 -->
+
+
+    <li>
+      <div class="timeline-image">
+        <div class="timeline-content">2017</div>
+      </div> <!-- //.timeline-image -->
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <div class="timeline-title1">Paul Augier</div>
+          <div class="title2">BTS Gestion hôtelière</div>
+        </div> <!-- //.timeline-heading -->
+        <HR/>
+        <div class="timeline-body">
+          <p>Gestion Management</p>
+        </div> <!-- //.timeline-body -->
+      </div> <!-- //.timeline-panel -->
+    </li> <!-- //.item1 -->
+    </ul> <!-- //.timeline -->
+  </div><!-- //.col-lg-12 -->
+  </div><!-- //.row2 -->
+    
+  <!-- //.EDUCATION -->
+    
+  </div><!-- //.row -->
+      </div><!-- //.section-content -->
+  </div><!-- //.container -->
+</section>
+<!-- //PORTFOLIO SECTION -->
+
+
+
+
+      <!-- contact -->
+      <section id="contact">
+        <div class="container">
+          <h1 class="page-header">Say Hi!</h1>
+          <h3>I won’t bite, I promise. <small>No really!</small></h3>
+
+              <form action="https://formspree.io/f/xwkwyvka" method="POST" id="my-form">
+          
+                <div class="form-group">
+                  <label for="firstName"> Prénom </label>
+                  <input type="text" id="firstName" name="firstName">
+                </div>
+          
+                <div class="form-group">
+                  <label for="latsName">Nom</label>
+                  <input type="text" id="lastName" name="lastName">
+                </div>
+          
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email">
+                </div>
+          
+                <div class="form-group">
+                  <label for="massage">Message</label>
+                  <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                </div>
+          
+                <button type="submit">Envoyer</button>
+              </form>
+            </div>
+            <div id="status"></div>
+          </section>
+        
+      </section>
+
+      <footer class="container-fluid">
+       
+      </footer>
+
+</body>
+  
+  
+</html>
